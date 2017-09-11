@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>AdMaster</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/style1.css" media="all and (min-width:800px)"/>
+    <link rel="stylesheet" href="css/style2.css" media="all and ( max-width:799px) and (min-width:668px)"/>
+    <link rel="stylesheet" href="css/style3.css" media="all and ( max-width:667px)"/>
+</head>
+<body>
+    <header>
+        <h1><a href="#">AdMaster</a></h1>
+        <nav>
+            <img id="imgLogo" src="images/1.png" alt=""/>
+            <ul>
+                <li ><a href="#">Home</a></li>
+                <li><a href="#"> solution </a></li>
+                <li><a href="#">  Market Lnsights </a></li>
+                <li><a href="#">   College </a></li>
+                <li><a href="#">  About Us  </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script>
+        $('#imgLogo').click(function () {
+            $('nav ul').toggle();
+        })
+    </script>
+</body>
+</html>
